@@ -1,0 +1,11 @@
+.header {
+  background-color: #cde5fe;
+}
+
+.header .header_label {
+  font-size: 1.1rem;
+}
+
+.header .col {
+  padding: 0.5rem;
+}

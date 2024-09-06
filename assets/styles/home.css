@@ -1,0 +1,46 @@
+.btn-custom {
+  background-color: #6c757c;
+  border: none;
+  color: white;
+}
+
+.btn-custom-disabled {
+  background-color: #e6e6e6;
+  border: none;
+  color: #424242;
+}
+
+.arrow-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: fit-content;
+  text-wrap: nowrap;
+  padding: 0.1rem;
+}
+
+.arrow-block.right {
+  background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 50 210 110' preserveAspectRatio='none'><polygon points='177.128,64.19 0,64.19 0,144.875 177.128,144.875 209.065,104.533' fill='none' stroke='grey' stroke-width='2'/></svg>");
+  padding-right: 1rem;
+}
+
+.arrow-block.left {
+  background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 50 210 110' preserveAspectRatio='none'><polygon points='177.128,64.19 0,64.19 0,144.875 177.128,144.875 209.065,104.533' fill='none' stroke='grey' stroke-width='2' transform='rotate(180 105 105)'/></svg>");
+  padding-left: 1rem;
+}
+
+.arrow-block-text {
+  padding: 0.5rem;
+}
+
+.bage {
+  height: 40px;
+}
+
+.bage_value {
+  font-weight: 900;
+}

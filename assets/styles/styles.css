@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #353535;
+}
+
+main {
+  padding: 1rem;
+}
+
+.navbar {
+  background-color: #0372da !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bolder;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: transparent;
+  background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 30 30\'%3e%3cpath stroke=\'%23ffffff\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' stroke-width=\'2\' d=\'M4 7h22M4 15h22M4 23h22\'/%3e%3c/svg%3e');
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  background-position: center;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  box-shadow: none;
+}
